@@ -466,8 +466,31 @@ class ItemDetails extends StatelessWidget {
                                             Container(
                                               child: Row(
                                                 children: <Widget>[
-                                                  new Text(
-                                                      "${vacationData[index].rate}"),
+                                                  Icon(
+                                                    Icons.star,
+                                                    color: Colors.orange,
+                                                    size: 15.0,
+                                                  ),
+                                                  Icon(
+                                                    Icons.star,
+                                                    color: Colors.orange,
+                                                    size: 15.0,
+                                                  ),
+                                                  Icon(
+                                                    Icons.star,
+                                                    color: Colors.orange,
+                                                    size: 15.0,
+                                                  ),
+                                                  Icon(
+                                                    Icons.star_half,
+                                                    color: Colors.orange,
+                                                    size: 15.0,
+                                                  ),
+                                                  Icon(
+                                                    Icons.star_border,
+                                                    color: Colors.orange,
+                                                    size: 15.0,
+                                                  ),
                                                 ],
                                               ),
                                             )
