@@ -18,7 +18,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       appBar: new AppBar(
         title: new Text(
           'Inside House',
@@ -45,6 +45,7 @@ class _HomeState extends State<Home> {
                     AssetImage(dealsData[5].img),
                   ],
                   animationCurve: Curves.bounceInOut,
+
                   animationDuration: Duration(milliseconds: 2000),
                   //dotBgColor: Colors.transparent,
                   // dotColor: Colors.orangeAccent,
@@ -63,13 +64,13 @@ class _HomeState extends State<Home> {
                       new Text(
                         'Explore  Kenya\'s Beautiful Heritage',
                         style: new TextStyle(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontFamily: 'Sacramento',
                             fontSize: 20.0),
                       ),
                       Icon(
                         Icons.explore,
-                        color: Colors.white,
+                        color: Colors.black,
                       )
                     ],
                   ),
@@ -122,7 +123,7 @@ class _HomeState extends State<Home> {
                                             Text(
                                               itemData[index].name,
                                               style: TextStyle(
-                                                  color: Colors.white,
+                                                  color: Colors.black,
                                                   fontWeight: FontWeight.bold,
                                                   fontFamily: 'AlexBrush',
                                                   fontSize: 25.0),
@@ -169,14 +170,14 @@ class _HomeState extends State<Home> {
                 Text(
                   'Todays Hot Deals',
                   style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                       fontFamily: 'Sacramento',
                       fontSize: 20.0),
                 ),
                 new IconButton(
                     icon: Icon(
                       Icons.arrow_forward,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                     onPressed: () => Navigator.push(
                         context,

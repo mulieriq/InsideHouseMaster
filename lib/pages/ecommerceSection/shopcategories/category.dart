@@ -8,7 +8,7 @@ class Category extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       appBar: new AppBar(
         title: new Text('Category'),
         actions: <Widget>[

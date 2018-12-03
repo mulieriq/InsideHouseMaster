@@ -27,7 +27,7 @@ class _HotDealsState extends State<HotDeals> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white,
         appBar: new AppBar(
           title: new Text(
             widget.title,
@@ -57,7 +57,7 @@ class _HotDealsState extends State<HotDeals> {
               child: new Text(
                 'Clothing',
                 style: new TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontFamily: 'Sacramento',
                     fontSize: 25.0),
               ),
@@ -113,7 +113,7 @@ class _HotDealsState extends State<HotDeals> {
               child: new Text(
                 'Fruits',
                 style: new TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontFamily: 'Sacramento',
                     fontSize: 25.0),
               ),
@@ -169,7 +169,7 @@ class _HotDealsState extends State<HotDeals> {
               child: new Text(
                 'Phones',
                 style: new TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontFamily: 'Sacramento',
                     fontSize: 25.0),
               ),
@@ -225,7 +225,7 @@ class _HotDealsState extends State<HotDeals> {
               child: new Text(
                 'Bikes',
                 style: new TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontFamily: 'Sacramento',
                     fontSize: 25.0),
               ),
@@ -281,7 +281,7 @@ class _HotDealsState extends State<HotDeals> {
               child: new Text(
                 'Kitchen',
                 style: new TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontFamily: 'Sacramento',
                     fontSize: 25.0),
               ),
@@ -337,7 +337,7 @@ class _HotDealsState extends State<HotDeals> {
               child: new Text(
                 'Safety',
                 style: new TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontFamily: 'Sacramento',
                     fontSize: 25.0),
               ),
@@ -393,7 +393,7 @@ class _HotDealsState extends State<HotDeals> {
               child: new Text(
                 'Beauty',
                 style: new TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontFamily: 'Sacramento',
                     fontSize: 25.0),
               ),
@@ -449,7 +449,7 @@ class _HotDealsState extends State<HotDeals> {
               child: new Text(
                 'Laptops',
                 style: new TextStyle(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontFamily: 'Sacramento',
                     fontSize: 25.0),
               ),

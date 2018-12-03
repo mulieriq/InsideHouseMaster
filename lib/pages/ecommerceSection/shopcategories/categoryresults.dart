@@ -12,7 +12,7 @@ class CategoryResults extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       body: CustomScrollView(
         scrollDirection: Axis.vertical,
         slivers: <Widget>[
@@ -24,7 +24,7 @@ class CategoryResults extends StatelessWidget {
                   title: new Text(
                     "Item ${index}",
                     style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontWeight: FontWeight.bold,
                         fontFamily: 'AlexBrush',
                         fontSize: 30.0),
@@ -64,7 +64,7 @@ class CategoryResults extends StatelessWidget {
                                     title: Text(
                                       'Men Pants',
                                       style: new TextStyle(
-                                          color: Colors.white,
+                                          color: Colors.black,
                                           fontWeight: FontWeight.bold,
                                           fontFamily: 'Sacramento',
                                           fontSize: 25.0),
@@ -72,7 +72,7 @@ class CategoryResults extends StatelessWidget {
                                     subtitle: new Text(
                                       'Ksh 450.00',
                                       style: TextStyle(
-                                          color: Colors.white,
+                                          color: Colors.black,
                                           fontWeight: FontWeight.bold,
                                           fontFamily: 'DancingScript',
                                           fontSize: 10.0),
@@ -89,7 +89,7 @@ class CategoryResults extends StatelessWidget {
                         ),
                         Divider(
                           height: 0.0,
-                          color: Colors.white,
+                          color: Colors.grey,
                           indent: 110.0,
                         )
                       ],
