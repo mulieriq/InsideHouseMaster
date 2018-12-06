@@ -38,11 +38,12 @@ class _ComodityPageState extends State<ComodityPage> {
                     fit: BoxFit.cover,
                   ))),
           new SliverFixedExtentList(
-            itemExtent: 100.0,
+            itemExtent: 650.0,
             delegate: new SliverChildBuilderDelegate(
                 (context, index) => Column(
                       children: <Widget>[
                         Container(
+                          height: 100.0,
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: <Widget>[
@@ -53,40 +54,79 @@ class _ComodityPageState extends State<ComodityPage> {
                                 child: Image.asset(clothsData[index].img),
                               ),
                               SizedBox(
-                                width: 2.0,
+                                width: 10.0,
                               ),
-                              Expanded(
-                                child: ListTile(
-                                  title: Text(
-                                    'Men Pants',
-                                    style: new TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold,
-                                        fontFamily: 'Sacramento',
-                                        fontSize: 25.0),
-                                  ),
-                                  subtitle: new Text(
-                                    'Ksh 450.00',
-                                    style: TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold,
-                                        fontFamily: 'DancingScript',
-                                        fontSize: 10.0),
-                                  ),
-                                  trailing: Icon(
-                                    Icons.add_shopping_cart,
-                                    color: Colors.orange,
-                                  ),
-                                ),
-                              )
                             ],
                           ),
                         ),
-                        Divider(
-                          height: 0.0,
-                          color: Colors.white,
-                           indent: 110.0,
-                        )
+                        Container(
+                          height: 100.0,
+                          child: new Text(
+                            "Item Details",
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 20.0),
+                          ),
+                        ),
+                        Container(
+                          height: 100.0,
+                          child: new Text(
+                            "Payment OR add TO Cart Details",
+                            style:
+                                TextStyle(color: Colors.black, fontSize: 20.0),
+                          ),
+                        ),
+                        Expanded(
+                          child: new Column(
+                            children: <Widget>[
+                              new Text('Suggetions'),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: <Widget>[
+                                  Container(
+                                    padding: EdgeInsets.symmetric(
+                                        horizontal: 2.0, vertical: 1.5),
+                                    height: 100.0,
+                                    child: Image.asset(clothsData[index].img),
+                                  ),
+                                  SizedBox(
+                                    width: 10.0,
+                                  ),
+                                ],
+                              ),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: <Widget>[
+                                  Container(
+                                    padding: EdgeInsets.symmetric(
+                                        horizontal: 2.0, vertical: 1.5),
+                                    height: 100.0,
+                                    child: Image.asset(clothsData[index].img),
+                                  ),
+                                  SizedBox(
+                                    width: 10.0,
+                                  ),
+                                ],
+                              ),
+                              Row(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: <Widget>[
+                                  Container(
+                                    padding: EdgeInsets.symmetric(
+                                        horizontal: 2.0, vertical: 1.5),
+                                    height: 100.0,
+                                    child: Image.asset(clothsData[index].img),
+                                  ),
+                                  SizedBox(
+                                    width: 10.0,
+                                  ),
+                                ],
+                              ),
+
+                              //Horizontal List View Mbili
+
+                            ],
+                          ),
+                        ),
                       ],
                     ),
                 childCount: 1),
