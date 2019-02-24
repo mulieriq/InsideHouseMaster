@@ -28,7 +28,6 @@ class _SplashScreenState extends State<SplashScreen>
         () => Navigator.pushReplacement(
             context, MaterialPageRoute(builder: (context) => Home())));
   }
-  
 
   String _connectionStatus = 'Unknown';
 

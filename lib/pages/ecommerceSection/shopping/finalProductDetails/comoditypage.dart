@@ -5,18 +5,18 @@ import 'package:insidehouse/data/dealsData.dart';
 class ComodityPage extends StatefulWidget {
   final String img;
   final int index;
-
   ComodityPage({this.img, this.index});
-
   @override
   _ComodityPageState createState() => _ComodityPageState();
 }
-
 class _ComodityPageState extends State<ComodityPage> {
+
+List <dynamic>cart = [];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black.withAlpha(100),
       body: CustomScrollView(
         scrollDirection: Axis.vertical,
         slivers: <Widget>[
@@ -69,10 +69,11 @@ class _ComodityPageState extends State<ComodityPage> {
                         ),
                         Container(
                           height: 100.0,
-                          child: new Text(
-                            "Payment OR add TO Cart Details",
-                            style:
-                                TextStyle(color: Colors.black, fontSize: 20.0),
+                          child: new FlatButton(
+                             onPressed: (){
+                              //adding to cart
+                             },
+                            child: new Text('Add To Cart'),
                           ),
                         ),
                         Expanded(
